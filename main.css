@@ -6,4 +6,15 @@ img {
     margin: 50px;
     padding: 50px;
     border: 50px solid black;
+    animation: rotater 1s linear infinite;
+}
+
+@keyframes rotater {
+    from {
+        transform: rotate(0);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
 }
